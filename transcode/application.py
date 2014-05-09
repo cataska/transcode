@@ -1,4 +1,4 @@
-from app import app
+from transcode import app
 
 @app.route('/')
 def home():
