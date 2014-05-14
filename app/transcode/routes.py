@@ -4,11 +4,11 @@ from . import transcode
 def home():
     return 'Hello app'
 
-@transcode.route('/jobs')
+@transcode.route('/jobs/')
 def get_jobs():
     return 'Hello get_jobs'
 
-@transcode.route('/jobs', methods=['POST'])
+@transcode.route('/jobs/', methods=['POST'])
 def post_newjob():
     return 'Hello post_newjob'
 
